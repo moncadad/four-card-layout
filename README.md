@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Visit Solution](https://www.frontendmentor.io/profile/moncadad/solutions)
+- Live Site URL: [Visit Site](https://precious-creponne-fe86da.netlify.app/)
 
 ## My process
 
