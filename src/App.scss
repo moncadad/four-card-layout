@@ -14,7 +14,7 @@ $neutral__light--gray: hsl(0, 0%, 98%);
 
 // ## Typography 
 $font__poppins: 'Poppins', sans-serif;
-$font__body: 15px;
+$font__body: .94rem;
 $font__200: 200;
 $font__400: 400;
 $font__600: 600;
@@ -24,49 +24,61 @@ $font__600: 600;
     padding: 0;
     box-sizing: border-box;
 }
+
 img{
-    max-width: 5em;}
+    max-width: 100%
+}
+
 h2{
     color: $neutral__dark--blue;
-    font-size: 28px;}
+    font-size: 1.75rem;
+}
+
 h1,p{
-    color: $neutral__grayish--blue;}
+    color: $neutral__grayish--blue;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-size: $font__body;
-    font-family: $font__poppins;}
+    font-family: $font__poppins;
+}
 
     article{
         margin: 5rem auto;
-        max-width: 1080px;
+        max-width: 67.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
         header{
             text-align: center;
             padding: 0 1.5rem;
             .header__title{
                 font-weight: $font__200;
-                font-size: 26px;}
+                font-size: 1.75rem;}
             .header__subtitle{
-                font-size: 26px;
+                font-size: 1.75rem;
                 padding-bottom: 1.5rem;}
             .header__text{
                 // color: orange
                 text-align: center;
-                max-width: 500px;
-                font-size: 16px;
+                max-width: 32rem;
+                font-size: 1rem;
                 line-height: 1.6;
                 margin: 0 auto;
-                padding-bottom: 3rem;}}
+                padding-bottom: 3rem;}
+            }
+
         .cards{
             // border: 1px solid red
             margin: 0 auto;
             display: block;
+
             .col{
                 display: flex;
                 flex-direction: column;
@@ -74,54 +86,78 @@ body{
                 margin: 0 1rem;
                 // border: 1px solid #000
             }
-            .card{
-                border-top: 4px solid;
-                border-radius: 4px;
+
+            .card{                
+                border-top: .25rem solid;
+                border-radius: .25rem;
                 display: flex;
-                flex-direction: column;}
+                flex-direction: column;               
+                max-width: 22rem;
+                margin: 2rem 0 ; 
+                padding: 2rem 1.5rem;
+                box-shadow: 0 1.6rem .8rem rgba(209, 209, 209, 0.488);            
+            }
                 .card__title{
                     font-weight: $font__600;
                     padding-bottom: 1rem;}
                 .card__text{
                     padding-bottom: 1rem;}
                 .card__image{
-                    align-self: flex-end;}}
+                    display: flex;
+                    align-self: flex-end;
+                    justify-content: flex-end;
+                    width: 3rem;
+                }
+                }
+
+
 
             .card.cyan{
                 border-color: $primary__cyan;
                 .card__title{
                     color: $primary__cyan;}
                 }
+
             .card.red{
                 border-color: $primary__red;
+
                 .card__title{
-                    color: $primary__red;}}
+                    color: $primary__red;}
+                }
+
             .card.orange{
                 border-color: $primary__orange;
                 .card__title{
-                    color: $primary__orange;}}
+                    color: $primary__orange;}
+                }
+
             .card.blue{
                 border-color: $primary__blue;
                 .card__title{
-                    color: $primary__blue;}}
+                    color: $primary__blue;}
+                }
 
-@media (min-width: 900px){
+
+@media (min-width: 56rem){
     body
         article
             .header__title{
                 font-weight: $font__200;
-                font-size: 36px;}
+                font-size: 2rem;}
+
             .header__subtitle{
-                font-size: 36px;
+                font-size: 2rem;
                 padding-bottom: 1.5rem;}
+
             .header__text{
                 // color: orange
                 text-align: center;
-                max-width: 500px;
-                font-size: 16px;
+                max-width: 31.25rem;
+                font-size: 1rem;
                 line-height: 1.6;
                 margin: 0 auto;
                 padding-bottom: 3rem;}
+
             .cards{
                 display: flex;}
 }

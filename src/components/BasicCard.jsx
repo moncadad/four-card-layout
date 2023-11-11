@@ -1,4 +1,5 @@
-import "./basicCard.sass";
+import "../App.scss";
+// import "./basicCard.scss";
 import Card from "react-bootstrap/Card";
 
 function BasicCard(props) {

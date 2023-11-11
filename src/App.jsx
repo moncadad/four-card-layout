@@ -1,4 +1,5 @@
 import "./App.scss";
+// import "./components/basicCard.scss";
 import BasicCard from "./components/BasicCard";
 
 function App() {
