@@ -1,4 +1,4 @@
-import "./App.sass";
+import "./App.scss";
 import BasicCard from "./components/BasicCard";
 
 function App() {
