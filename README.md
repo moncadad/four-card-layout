@@ -64,7 +64,8 @@ card component I used one I found in bootstrap.
 ```
 
 ```css/ sass
-  For styling I used sass I enjoy the fact that it a bit of a structure.
+  Originally for styling I used sass, later learned that scss is more often used in the "real world".
+ There for I decided to revise my code, and make use of scss for my styling. I figure it's best to familiarize myself with what I am most likely to use in the future. 
 ```
 
 ### Continued development
