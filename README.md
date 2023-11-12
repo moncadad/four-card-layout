@@ -41,7 +41,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Bootstrap
-- SASS custom properties
+- SCSS custom properties
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library For styles
